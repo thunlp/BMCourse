@@ -20,6 +20,8 @@ Bash is often used to automate the running of a pipeline. You should learn its b
 Some suggestions are here: [for-loop](https://www.cyberciti.biz/faq/bash-for-loop/), [parallel computation](https://unix.stackexchange.com/questions/103920/parallelize-a-bash-for-loop), [passing arguments](https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script)
 [redirecting outputs](https://www.redhat.com/sysadmin/redirect-operators-bash#:~:text=The%20append%20%3E%3E%20operator%20adds%20the,uname%20%2Dr%20to%20the%20specifications.).
 
+For students who use cloud compuatation resources, please refer to the lecture for submitting jobs to the cluster.
+
 
 ## Hyper-parameter search
 Now pass different hyperparameters to the word2vec training to see how loss change. Please tune the **learning rate** and **train_batch_size** for now. Since this homework is only a start-up project, do not search for over 10 groups of
