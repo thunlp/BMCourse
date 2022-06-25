@@ -39,4 +39,4 @@ Hand in to web-learning platform.
 
 
 ## Acknowledgement
-We thank (OlgaChernytska)[https://github.com/OlgaChernytska] for providing a simple realization of the Word2Vec as the starter code for deep learning enthusiasts.
+We thank [OlgaChernytska](https://github.com/OlgaChernytska) for providing a simple realization of the Word2Vec as the starter code for deep learning enthusiasts.
