@@ -15,12 +15,12 @@ You are encouraged to build a separate virtual environment for each project to m
 the code base clean. Please refer to the lecture on virtual environment
 
 ## Write simple bash scripts to run the code.
-Bash is often used to automate the running of a pipeline. You should learn its basic command.
+Bash is often used to automate the running of a pipeline. You should learn its basic commands.
 
 Some suggestions are here: [for-loop](https://www.cyberciti.biz/faq/bash-for-loop/), [parallel computation](https://unix.stackexchange.com/questions/103920/parallelize-a-bash-for-loop), [passing arguments](https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script)
 [redirecting outputs](https://www.redhat.com/sysadmin/redirect-operators-bash#:~:text=The%20append%20%3E%3E%20operator%20adds%20the,uname%20%2Dr%20to%20the%20specifications.).
 
-For students who use cloud compuatation resources, please refer to the lecture for submitting jobs to the cluster.
+For students who use cloud computation resources, please refer to the lecture for submitting jobs to the cluster.
 
 
 ## Hyper-parameter search
