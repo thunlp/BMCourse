@@ -22,6 +22,8 @@ If we find it useful, we will actively merge your pull request (and of course, t
 1. [【视频】CS11-747 CMU自然语言处理课程](https://www.bilibili.com/video/BV1Sb4y1X7pY?spm_id_from=333.337.search-card.all.click&vd_source=3483666ddd2c29d930f2a3236d715dee)
 2. [【视频】CS224n 斯坦福自然语言处理课程](https://web.stanford.edu/class/cs224n/)
 3. [【网页】pytorch官方教程](https://pytorch.org/tutorials/)
+4. [【网页】word2vec详解博文](https://www.cnblogs.com/peghoty/p/3857839.html)
+5. [【网页】Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
 #### L3
 1. [【论文集】预训练模型必读论文](https://github.com/thunlp/PLMpapers)
