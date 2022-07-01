@@ -6,7 +6,7 @@ by submitting bash scripts to a GPU server, and finally write simple bash script
 All these kinds of stuff pave the way for your future research in the deep learning area.
 
 ## Git clone a public project.
-The public project we will clone is [OlgaChernytska/word2vec-pytorch](https://github.com/OlgaChernytska/word2vec-pytorch). To keep the code, I also make a [copy](https://github.com/ShengdingHu/word2vec-pytorch).
+The public project we will clone is [OlgaChernytska/word2vec-pytorch](https://github.com/OlgaChernytska/word2vec-pytorch). To keep the code, I also made a [copy](https://github.com/ShengdingHu/word2vec-pytorch) and made some modifications to the requirements. You can refer to it if you encounter difficulties in building the virtual environment. 
 Please read the code to get an impression of the related knowledge learned in the lecture.
 
 
