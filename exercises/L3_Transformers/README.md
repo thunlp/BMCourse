@@ -4,6 +4,8 @@ TA have already shown how to use 🤗 [Transformers](https://github.com/huggingf
 
 Therefore in this exercise, you are expected to use the 🤗 Transformers to fine-tune a pre-trained language model yourself. You can refer to the [demo code](https://colab.research.google.com/drive/1tcDiyHIKgEJp4TzGbGp27HYbdFWGolU_#scrollTo=hB3IyMO6mWsA) given in our class if you run into trouble. 
 
+You can simply edit the demo code to complete this exercise, **however**, we encourage you to first understand the demo code and then write your code without referring to it.
+
 ## 1. Learn to Explore the Model Hub
 One of the greatest benefits of 🤗 Transformers is that it provides a wide variety of more than 50,000 models in its [model hub](https://huggingface.co/models). In this exercise, you are required to explore the model hub, and **load the [Tiny BERT](https://huggingface.co/google/bert_uncased_L-2_H-128_A-2) in your code**. 
 
