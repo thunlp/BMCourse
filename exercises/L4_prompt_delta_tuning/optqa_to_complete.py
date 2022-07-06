@@ -2,18 +2,17 @@
 
 
 
-from ast import While
+
 import opendelta
 import argparse
 import os
 import json
-from transformers import PLBartModel, get_linear_schedule_with_warmup
+from transformers import get_linear_schedule_with_warmup
 from torch.optim import AdamW
 from openprompt.data_utils import InputExample
 from openprompt.plms import load_plm
 from tqdm import tqdm
 import torch
-from nltk.translate.f1_score import sentence_f1
 
 import re
 import numpy as np
