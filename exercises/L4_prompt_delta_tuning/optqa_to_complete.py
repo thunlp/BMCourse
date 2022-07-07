@@ -45,6 +45,8 @@ def get_dataset(args):
     ## 1. load the dataset (three splits: train, dev, test) here from the jsonl file
     ## 2. transform each data sample into an InputExample with can be consumed by openprompt.
     ## 3. return the train, dev, test dataset in the form of a dict, where each value is a list of InputExample(s).
+    ## Hint1: the dataset provide multiple answers for one question. To keep the pipeline simple, you can use the first answer as the target answer.
+    ## Hint2: the label of InputExample should be set to int(0) to match the verbalizer.
     ##
     ##
     ## TODO: YOUR CODE HERE
