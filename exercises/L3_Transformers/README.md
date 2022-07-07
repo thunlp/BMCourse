@@ -11,7 +11,7 @@ One of the greatest benefits of 🤗 Transformers is that it provides a wide var
 
 > Hint: copy the model's name ("google/bert_uncased_L-2_H-128_A-2"), and load the model with `from_pretrained()` just like that in the demo code.
 
-You can browse the model hub and find many interesting models. 
+Since TinyBERT is a really tiny, the performance won't be satisfaying (final accuracy only reaches 60~70%). You can browse the ModelHub and find other big models to fine-tune if you like. 
 
 ## 2. Load and Tokenize the Dataset
 You are required to load and tokenize the QNLI dataset, which can be also easily done with `datasets` package. 
