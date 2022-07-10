@@ -72,8 +72,7 @@ corpus = data.Corpus(args.data)
 # batch processing.
 
 ###############################################################################
-# sst2改动batchify功能: n行句子分成nbatch批, shape从输入的data的[n, seq_len]变为[nbatch, bsz, seq_len]，并且要包含标签信息
-# 即输出是一个数组，每个元素代表一个batch，每个batch是一个tuple，包含data和label，data的shape为[bsz, seq_len]，label是一维0/1数组
+# sst2改动batchify功能: 输出是一个数组，每个元素代表一个batch，每个batch是一个pair，包含data和label，data的shape为[seq_len, bsz]（可由[bsz, seq_len]转置得到），label是一维0/1数组
 ###############################################################################
 def batchify(data, bsz):
     # Work out how cleanly we can divide the dataset into bsz parts.
