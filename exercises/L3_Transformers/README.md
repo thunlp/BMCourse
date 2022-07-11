@@ -16,6 +16,8 @@ Since TinyBERT is a really tiny, the performance won't be satisfaying (final acc
 ## 2. Load and Tokenize the Dataset
 You are required to load and tokenize the QNLI dataset, which can be also easily done with `datasets` package. 
 
+> 7.11 Update: The tokenizer for TinyBERT may not truncate the text appropriately. You need to add a keyword argument `max_length=512` when tokenizing the dataset.
+
 ## 3. Fine-tune the Model
 Use the `Trainer` to fine-tune your Tiny BERT. The `TrainingArguments` can be kept the same with that in the demo code.
 
